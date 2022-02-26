@@ -13,8 +13,8 @@ div, p , title, header, h1, footer, body, img {
 }
 
 .header {
-  display: flex;
   position: relative;
+  display: flex;
   align-items: center;
   height: 100vh;
   min-height: 600px;
@@ -49,6 +49,7 @@ div, p , title, header, h1, footer, body, img {
   bottom: 30px;
   line-height: 25px;
   font-size: 18px;
+  font-weight: normal;
   z-index: 2;
 }
 
@@ -75,6 +76,53 @@ div, p , title, header, h1, footer, body, img {
   right: 0px;
   background-color: #2f80ed;
   z-index: 0;
+}
+
+.discription {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.two-columns{
+  display: flex;
+  width: 80%;
+  min-height: 275px;
+  margin: 100px auto;
+}
+
+.brief {
+  margin: 0 auto 0 0;
+  width: 175px;
+
+  line-height: 1.2em;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+
+.main-text {
+  margin: 0 0 0 auto;
+  min-width: 784px;
+  width: 80%;
+
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.main-text_paragraph {
+  margin: 0 0 30px 0;
+  padding: 0px;
+}
+
+.main-text_paragraph_bold {
+  font-weight: bold;
+}
+
+.main-text_paragraph:last-of-type {
+  margin: 0px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
