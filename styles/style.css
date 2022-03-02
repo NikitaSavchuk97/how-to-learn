@@ -1,9 +1,9 @@
-/*
-div, p, a, title, header, h1, h2, footer, img, section {
+
+div, p, a, title, header, h1, h2, h3, footer, img, section {
   box-sizing: content-box;
   border: 1px solid red;
 }
-*/
+
 
 
 /* --- ↓↓↓ --- COMMON SELECTORS --- ↓↓↓ --- */
@@ -352,10 +352,6 @@ min-height: 50px;
 /* --- ↓↓↓ --- FOOTER --- ↓↓↓ --- */
 
 
-.footer {
-  
-}
-
 
 .footer__columns {
   min-height: 250px;
@@ -386,7 +382,6 @@ min-height: 50px;
 }
 
 .footer__column-heading {
-  align-items: flex-start;
   margin: 0 0 20px 0;
   line-height: 30px;
   font-size: 18px;
@@ -398,12 +393,12 @@ min-height: 50px;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  list-style-type: none;
   margin-bottom: 16px;
 }
 .footer__column-link {
   align-items: center;
   text-decoration: none;
+  list-style-type: none;
   color: white;
 }
 
