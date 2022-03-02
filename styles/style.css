@@ -11,6 +11,7 @@ div, p, a, title, header, h1, h2, footer, img, section {
 
 
 .page {
+  display: grid;
   min-width: 1100px;
   max-width: 1600px;
   height: 100vh;
@@ -55,6 +56,9 @@ div, p, a, title, header, h1, h2, footer, img, section {
   z-index: 3;
 }
 
+.pink {
+  background-color: palevioletred;
+}
 
 
 /* --- ↓↓↓ --- HEADER --- ↓↓↓ --- */
@@ -74,7 +78,6 @@ div, p, a, title, header, h1, h2, footer, img, section {
   min-height: 635px;
   max-height: 755px;
 }
-
 
 .header__title {
   width: 730px;
@@ -354,13 +357,6 @@ min-height: 50px;
 
 
 
-.footer {
-  position: absolute;
-  min-width: 1100px;
-  max-width: 1600px;
-  width: 100%;
-}
-
 .footer__columns {
   min-height: 250px;
   margin: 60px auto 40px auto;
@@ -396,6 +392,8 @@ min-height: 50px;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
+  list-style-type: none;
+  margin-bottom: 16px;
 }
 .footer__column-link {
   align-items: center;
@@ -408,4 +406,5 @@ min-height: 50px;
   align-items: flex-end;
   width: 16px;
   height: 16px;
+  margin-right: 10px;
 }
