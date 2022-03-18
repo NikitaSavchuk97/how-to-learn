@@ -276,7 +276,7 @@ div, p, a, title, header, h1, h2, h3, footer, img, section {
 }
 
 .kaufman__triangle {
-  background-image: url(../images/kaufman-triangle.svg);
+  background-image: url(../images/__sprint-1/kaufman-triangle.svg);
   background-size: cover;
   position: absolute;
   top: 0;
