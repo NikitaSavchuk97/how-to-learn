@@ -1,0 +1,10 @@
+.footer__column-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+  }
+  .footer__column-link:last-of-type{
+    margin: 0 0 16px 0;
+  }
